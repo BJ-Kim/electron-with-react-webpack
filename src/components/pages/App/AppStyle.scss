@@ -1,0 +1,12 @@
+.leftSideBar{
+  background-color: red;
+  position: relative;
+  width: 200px;
+  height: initial;
+  overflow: hidden;
+  min-width: 30px;
+  display: flex;
+  -webkit-user-select: none;
+  flex-direction: column;
+  z-index: 2;
+}

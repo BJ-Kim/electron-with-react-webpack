@@ -28,7 +28,7 @@ export default class IntroPage extends React.Component {
   render() {
     return (
       <div>
-        렌카 어플입니다.ㅎㅎㅎㅎㅎ
+        내용
         <button onClick={this._goLogin}>로그인페이지이동</button>
       </div>
     );
