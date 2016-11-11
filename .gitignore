@@ -1,5 +1,6 @@
 node_modules
 installer-win32-x64
 rencar-win32-x64
+build
 *.swp
 
