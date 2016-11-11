@@ -20,3 +20,4 @@ export function setDiff(value) {
     diff: value
   };
 }
+

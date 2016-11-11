@@ -43,7 +43,13 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
+    "axios": "^0.15.2",
     "classnames": "^2.2.5",
+    "crypto-js": "^3.1.8",
+    "jsonwebtoken": "^5.7.0",
+    "lodash": "^4.16.6",
+    "mobx": "^2.6.2",
+    "mobx-react": "^3.5.9",
     "react": "^15.3.2",
     "react-css-modules": "^3.7.10",
     "react-dom": "^15.3.2",

@@ -1,6 +1,8 @@
 var path = require("path");
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const srcPath = path.join(__dirname, 'src');
+
 module.exports = {
   entry: [
     'babel-polyfill',
@@ -9,10 +11,13 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: __dirname + '/build',
-    publicPath: 'http://localhost:8080/build/'
+    publicPath: 'http://localhost:8080/build/',
   },
   resolve: {
     extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx', '.json'],
+    alias: { 
+      mobservables: path.join(srcPath, 'mobservables'),
+    },
   },
   module: {
     loaders: [
