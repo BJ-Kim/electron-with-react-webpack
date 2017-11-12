@@ -29,7 +29,7 @@ export default class IntroPage extends React.Component {
     return (
       <div>
         내용
-        <button onClick={this._goLogin}>로그인페이지이동</button>
+        <button onClick={this._goLogin}>이동</button>
       </div>
     );
   }

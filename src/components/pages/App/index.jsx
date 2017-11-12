@@ -15,7 +15,7 @@ export default class App extends Component {
         <div
           className={AppStyle.leftSideBar}
         >
-          사이드바
+          header
         </div>
         {this.props.children}
       </div>

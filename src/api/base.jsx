@@ -19,6 +19,4 @@ export async function get(url, data = null) {
     method: method,
     data: data,
   });
-
-  console.log(result);
 }

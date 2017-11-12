@@ -4,3 +4,5 @@ rencar-win32-x64
 build
 *.swp
 
+*.zip
+

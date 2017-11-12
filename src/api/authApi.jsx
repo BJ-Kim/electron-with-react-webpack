@@ -6,6 +6,7 @@ export async function authLogin(name, pwd) {
     username: name,
     password: sha256(pwd).toString(),
   }
+  console.log('hi');
   const result = await post('/auth', data);
   return result
 }

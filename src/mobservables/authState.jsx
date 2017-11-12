@@ -21,10 +21,7 @@ export class AuthStateClass {
     this.userID = jwt.decode(loginData.access_token).identity;
     this.userType = jwt.decode(loginData.access_token).user_type;
 
-    debugger;
-    console.log(localStorage);
     localStorage.setItem('jwt', this.jwt);
-    console.log(localStorage);
   }
 }
 
